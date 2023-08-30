@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
+    />
+  </head>
+  <body class="bg-stone-200 flex flex-col ">
+    <section 
+      id="carrinho" 
+      class="fixed top-o right-[-360px] bg-slate-950 h-screen w-[360px] text-slate-200 z-50"
+    >
+      <div id="cabecalho-carrinho" class="flex justify-between m-4">
+        <p>Meu Carrinho</p>
+        <button id="fechar-carrinho" >
+          <i class="fa-solid fa-circle-xmark"></i></button>
+      </div>  
+      <section id="produtos-carrinho">
+        <p>item 1 adicionado a lista</p>
+        <p>item 2 adicionado a lista</p>
+        <p>item 3 adicionado a lista, substituir mais para frente</p>
+      </section>
+      <p id="preco-total">$200 trocar por inteligencia mais tarde</p>
+      <button class="bg-slate-200 text-slate-900 p-1">Finalizar Compra</button>
+    </section>
+    <header class="flex text-xl bg-slate-950 px-8 py-4 justify-between sticky top-0 shadow-slate-400 shadow-xl">
+      <img 
+      class="h-16" 
+      src="./assets/logo/hashtag.svg" 
+      alt="Logo da e-commerc"
+      />
+      <div class="text-slate-200 flex gap-4 items-end mx-2/">
+        <button id="meu-perfil" class="mx-2">
+          <i class="fa-solid fa-user"></i>
+        </button>
+        <button id="abrir-carrinho" class="mr-2"><i class="fa-solid fa-cart-shopping"></i>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section id="container-produto" class="flex flex-wrap p-10 justify-center gap-10"></section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
+
