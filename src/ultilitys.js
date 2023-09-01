@@ -1,7 +1,7 @@
 
 export const catalago = [
     { 
-        id: 1, 
+        id: "1", 
         marca: 'Zara', 
         nome: 'Camisa Larga com Bolsos', 
         preco: 70, 
@@ -9,7 +9,7 @@ export const catalago = [
         feminino: false, 
     }, 
     { 
-        id: 2,
+        id: "2",
         marca: 'Zara',
         nome: 'Casaco Reto com Lã', 
         preco: 85, 
@@ -17,7 +17,7 @@ export const catalago = [
         feminino: true, 
     }, 
     { 
-        id: 3, 
+        id: "3", 
         marca: 'Zara', 
         nome: 'Jaqueta com Efeito Camurça', 
         preco: 60, 
@@ -25,7 +25,7 @@ export const catalago = [
         feminino: false, 
     },
     { 
-        id: 4, 
+        id: "4", 
         marca: 'Zara', 
         nome: 'Sobretudo em Mescla de Lã', 
         preco: 160, 
@@ -33,7 +33,7 @@ export const catalago = [
         feminino: false, 
     },
     { 
-        id: 5, 
+        id: "5", 
         marca: 'Zara', 
         nome: 'Camisa Larga Acolchoada de Veludo Cotelê', 
         preco: 110, 
@@ -41,7 +41,7 @@ export const catalago = [
         feminino: false, 
     }, 
     { 
-        id: 6, 
+        id: "6", 
         marca: 'Zara', 
         nome: 'Casaco de Lã com Botões', 
         preco: 170, 
@@ -49,7 +49,7 @@ export const catalago = [
         feminino: true, 
     }, 
     { 
-        id: 7, 
+        id: "7", 
         marca: 'Zara', 
         nome: 'Casaco com Botões', 
         preco: 75, 
@@ -57,7 +57,7 @@ export const catalago = [
         feminino: true, 
     }, 
     { 
-        id: 8, 
+        id: "8", 
         marca: 'Zara', 
         nome: 'Colete Comprido com Cinto', 
         preco: 88, 
@@ -65,7 +65,7 @@ export const catalago = [
         feminino: true, 
     },
     { 
-        id: 9, 
+        id: "9", 
         marca: 'Zara', 
         nome: 'Calça com bolso ultility', 
         preco: 90, 
@@ -73,7 +73,7 @@ export const catalago = [
         feminino: false, 
     }, 
     { 
-        id: 10,
+        id: "10",
         marca: 'Zara',
         nome: 'Colete Ultility', 
         preco: 105, 
@@ -81,7 +81,7 @@ export const catalago = [
         feminino: true, 
     }, 
     { 
-        id: 11, 
+        id: "11", 
         marca: 'Zara', 
         nome: 'Moletom Crew Neck', 
         preco: 83, 
@@ -89,7 +89,7 @@ export const catalago = [
         feminino: false, 
     },
     { 
-        id: 12, 
+        id: "12", 
         marca: 'Zara', 
         nome: 'Camiseta Tecnica furada com Detalhes', 
         preco: 160, 
@@ -97,7 +97,7 @@ export const catalago = [
         feminino: false, 
     },
     { 
-        id: 13, 
+        id: "13", 
         marca: 'Zara', 
         nome: 'Jeans TRF reto hight waist regular Length', 
         preco: 111, 
@@ -105,7 +105,7 @@ export const catalago = [
         feminino: true, 
     }, 
     { 
-        id: 14, 
+        id: "14", 
         marca: 'Zara', 
         nome: 'Jeans TRF reto com cintura alta', 
         preco: 120, 
