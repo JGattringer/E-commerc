@@ -3,7 +3,7 @@ import { catalago } from "./ultilitys";
 
 export function renderCatalogo() {
   for (const produtoCatalago of catalago) {
-    const cartaoProduto = `<div id="card-produto-${produtoCatalago.id}" class="border-solid w-48 m-2 flex flex-col p-2 justify-between shadow-xl shadow-yellow-100 bg-yellow-50 rounded-lg group">
+    const cartaoProduto = `<div id="card-produto-${produtoCatalago.id}" class="border-solid w-48 m-2 flex flex-col p-2 justify-between shadow-xl shadow-yellow-100 bg-yellow-50 rounded-lg group ${produtoCatalago.feminino ? "feminino" : "masculino"}">
       <img 
       src="./assets/img/${produtoCatalago.imagem}" 
       alt="Produto do E-commerc 1"

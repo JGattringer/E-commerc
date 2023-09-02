@@ -33,8 +33,8 @@
       </div>  
       <section id="produtos-carrinho" class="h-3/5 overflow-y-auto flex flex-col gap-2">
       </section>
-      <p id="preco-total">$200 trocar por inteligencia mais tarde</p>
-      <button class="bg-slate-200 text-slate-900 p-1">Finalizar Compra</button>
+      <p id="preco-total" class="bg-slate-200 text-green-600 rounded-sm pl-5">TOTAL: R$0</p>
+      <button id="finalizar-compra" class="bg-slate-200 text-slate-900 hover:text-slate-200 hover:bg-slate-900 p-1">Finalizar Compra</button>
     </section>
     <header class="flex text-xl bg-yellow-600 px-8 py-4 justify-between sticky top-0 shadow-slate-400 shadow-xl z-10">
       <img 
@@ -50,7 +50,21 @@
         </button>
       </div>
     </header>
-    <main>
+    <main class="flex flex-col items-center">
+      <section id="filtros" class="p-10 flex ">
+      <div class="px-2 ">
+        <input id="exibir-todos" type="radio" name="filtro" class="peer hidden" checked  />
+        <label for="exibir-todos" class="peer-checked:bg-yellow-600 peer-checked:text-slate-200 peer-checked:font-bold p-2 rounded-lg select-none cursor-pointer">Todos</label>
+      </div>
+      <div  class="px-2">
+        <input id="exibir-masculino" type="radio" name="filtro" class="peer hidden"/>
+        <label for="exibir-masculino" class="peer-checked:bg-yellow-600 peer-checked:text-slate-200 peer-checked:font-bold p-2 rounded-lg select-none cursor-pointer">Masculino</label>
+      </div>
+      <div  class="px-2">
+        <input id="exibir-feminino" type="radio" name="filtro" class="peer hidden"/>
+        <label for="exibir-feminino" class="peer-checked:bg-yellow-600 peer-checked:text-slate-200 peer-checked:font-bold p-2 rounded-lg select-none cursor-pointer">Feminino</label>
+      </div>
+      </section>
       <section id="container-produto" class="flex flex-wrap p-10 justify-center gap-10"></section>
     </main>
     <script type="module" src="./main.js"></script>

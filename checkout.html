@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+  >
+  <style>
+    body {
+      background-image: url('C:\Users\joaog\OneDrive\Documentos\GitHub\E-comerc\E-commerc\assets\logo\bg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body class="bg-stone-200 flex flex-col h-screen">
+    <header class="flex text-xl bg-yellow-600 px-8 py-4 justify-between sticky top-0 shadow-slate-400 shadow-xl z-10">
+      <img 
+      class="h-12 houver: " 
+      src="./assets/logo/logoo.svg" 
+      alt="Logo da e-commerc"
+      />
+      <div class="text-slate-200 flex gap-4 items-end mx-2/">
+        <button id="meu-perfil" class="mx-2">
+          <i class="fa-solid fa-user fa-lg"></i>
+        </button>
+      </div>
+    </header>
+    <form class="flex w-100 px-5 py-10 gap-4 grow">
+        <section id="dados-usuario" class="w-1/3 bg-slate-300 rounded-lg py-5">
+            <p class="mb-5 text-center font-bold">
+                Seus Dados
+            </p>
+            <div class="flex flex-col px-10 py-3">
+                <label for="nome" class="font-bold text-sc mb-2">Nome</label>
+                <input type="text" id="nome" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="Joao Fulano" required>
+            </div>
+            <div class="flex flex-col px-10 py-3">
+                <label for="email" class="font-bold text-sc mb-2 ">email</label>
+                <input type="email" id="email" class="rounded-sm px-2 border-slate-200 border-2 p-1" placeholder="Joaofulano@gmail.com" required>
+            </div>
+            <div class="flex flex-col px-10 py-3">
+                <label for="telefone" class="font-bold text-sc mb-2  ">Telefone de Contato</label>
+                <input type="text" id="telefone" class="rounded-sm px-2 border-slate-200 border-2 p-1" placeholder="(DDD) XXXXX-XXXX" required>
+            </div>
+            
+        </section>
+        <section id="pagamento-entrega" class="w-1/3 bg-slate-300 rounded-lg py-5">
+            <p class="mb-5 text-center font-bold">
+                Dados Para Entrega e Pagamento 
+            </p>
+            <div class="flex flex-col px-10 py-3">
+                <label for="numero-cartao" class="font-bold text-sc mb-2">Numero do Cartao</label>
+                <input type="text" id="numero-cartao" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="xxxx xxxx xxxx xxxx" required>
+            </div>
+            <div class="flex">
+                <div class="flex flex-col px-10 py-3 w-1/2">
+                    <label for="validade-cartao" class="font-bold text-sc mb-2">Validade do Cartao</label>
+                    <input type="text" id="validade-cartao" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="12/25" required>
+                </div>
+                <div class="flex flex-col px-10 py-3 w-1/2">
+                    <label for="cvv" class="font-bold text-sc mb-2">CVV</label>
+                    <input type="text" id="cvv" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="xxx" required>
+                </div>
+            </div>
+
+            <div class="flex flex-col px-10 py-3">
+                <label for="endereco" class="font-bold text-sc mb-2">Endereco</label>
+                <input type="text" id="endereco" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="Rua das Flores" required>
+            </div>
+            <div class="flex">
+                <div class="flex flex-col px-10 py-3">
+                    <label for="numero" class="font-bold text-sc mb-2">Numero</label>
+                    <input type="text" id="numero" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="999" required>
+                </div>
+                <div class="flex flex-col px-10 py-3">
+                    <label for="complemento" class="font-bold text-sc mb-2">Complemento</label>
+                    <input type="text" id="complemento" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="Casa, Apartamento, Bloco" required>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="flex flex-col px-10 py-3">
+                    <label for="cidade" class="font-bold text-sc mb-2">Cidade</label>
+                    <input type="text" id="cidade" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="Curitiba" required>
+                </div>
+                <div class="flex flex-col px-10 py-3">
+                    <label for="estado" class="font-bold text-sc mb-2">Estado</label>
+                    <input type="text" id="estado" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="Parana" required>
+                </div>
+            </div>
+            <div class="flex flex-col px-10 py-3">
+                <label for="cep" class="font-bold text-sc mb-2">C.E.P</label>
+                <input type="text" id="cep" class="rounded-sm px-2 border-slate-200 border-2 py-1" placeholder="xx.xxx-xx" required>
+            </div>
+        </section>
+        <section id="produtos-checkout" class="w-1/3 bg-white rounded-lg py-5">
+            <section id="container-produto-checkout" class="h-4/5 overflow-y-auto px-2"></section>
+            <section id="celula-checkout" class="flex flex-col px-2 h-1/5 justify-arround">
+                <p id="preco-total" class="bg-slate-200 text-green-600 rounded-lg pl-5 mb-4 ">TOTAL: R$0</p>
+                <button class="bg-slate-900 text-slate-200 hover:bg-slate-800 p-5 rounded-lg" type="submit">Finalizar Compra</button>
+            </section>    
+        </section>
+    </form>
+    <script src="./checkout.js" type="module"></script>
+  </body>
+</html>
+
