@@ -46,9 +46,9 @@ O projeto está organizado em vários arquivos e diretórios:
 
 2. Abra os arquivos HTML em seu navegador para acessar as diferentes páginas.
 
-. Página Principal: index.html
-. Finalização de Compra: checkout.html
-. Histórico de Pedidos: pedido.html
+- Página Principal: index.html
+- Finalização de Compra: checkout.html
+- Histórico de Pedidos: pedido.html
 
 3. Interaja com a aplicação para visualizar o catálogo de produtos, adicionar produtos ao carrinho, inserir informações de pagamento e entrega, e revisar o histórico de pedidos.
 
