@@ -122,6 +122,10 @@ export function lerLocalStorage(chave) {
     return JSON.parse(localStorage.getItem(chave));
 }
 
+export function apagarDoLocalStorage(chave) {
+    localStorage.removeItem(chave)
+}
+
 export function desenharProdutoCarrinhoFinal(idProduto, idContainerHtml, quantidadeProduto) {
   
     const produto = catalago.find((p) => p.id === idProduto);
@@ -134,7 +138,8 @@ export function desenharProdutoCarrinhoFinal(idProduto, idContainerHtml, quantid
       "rounded-lg",
       "p-1",
       "relative",
-      "mb-2"
+      "mb-2",
+      "w-96",
     ];
     
     for (const articleClass of articleClasses) {
