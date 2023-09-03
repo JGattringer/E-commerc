@@ -2,8 +2,6 @@
 
 Bem-vindo à documentação do projeto E-Commerce Web Application. Este projeto é uma aplicação de comércio eletrônico simples, construída com HTML, CSS e JavaScript, para permitir aos usuários visualizar produtos, adicionar itens ao carrinho, fazer pedidos e muito mais.
 
-![E-Commerce](./assets/logo/bg.jpg)
-
 ## Funcionalidades Principais
 
 - **Catálogo de Produtos:** Os usuários podem navegar por uma lista de produtos disponíveis no catálogo.
